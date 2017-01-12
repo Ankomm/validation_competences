@@ -1,0 +1,115 @@
+@media all and (min-width: 1900px ) {
+	
+	.bg-color {
+		background-color: green;
+		height: 400px;
+		padding: 50px;
+	}
+
+	img {
+		height: 200px;
+		margin: 70px;
+	}
+}
+
+@media all and (min-width: 1600px ) and (max-width: 1900px) {
+	
+	.bg-color {
+		background-color: green;
+		height: 700px;
+		padding: 10px;
+	}
+
+	img {
+		height: 200px;
+		margin: 70px;
+		margin-left: 250px;
+	}
+}
+
+@media all and (min-width: 1450px ) and (max-width: 1600px) {
+	
+	.bg-color {
+		background-color: green;
+		height: 700px;
+		padding: 10px;
+	}
+
+	img {
+		height: 200px;
+		margin: 70px;
+		margin-left: 200px;
+	}
+}
+
+@media all and (min-width: 1024px ) and (max-width: 1450px) {
+
+	.bg-color {
+		background-color: green;
+		height: 700px;
+		padding: 10px;
+	}
+
+	img {
+		height: 200px;
+		margin: 70px;
+		margin-left: 100px;
+	}
+}
+
+@media all and (min-width: 740px ) and (max-width: 1024px) {
+
+	.bg-color {
+		background-color: green;
+		height: 700px;
+		padding: 10px;
+	}
+
+	img {
+		height: 150px;
+		margin: 70px;
+		margin-left: 100px;
+	}
+}
+
+@media all and (min-width: 320px ) and (max-width: 740px) {
+
+	.bg-color {
+		background-color: green;
+		height: 400px;
+		padding: 50px;
+	}
+
+	img {
+		height: 150px;
+		margin: 70px;
+	}
+}
+
+@media all and (max-width: 320px) {
+
+	.bg-color {
+		background-color: green;
+		height: 400px;
+		padding: 50px;
+	}
+
+	img {
+		height: 150px;
+		margin: 150px;
+	}
+}
+
+@media all and (max-device-width: 480px) {
+	.bg-color {
+		background-color: green;
+		height: 500px;
+		padding: 10px;
+	}
+
+	img {
+		height: 150px;
+		margin: 50px;
+		margin-left: 130px;
+	}
+}
